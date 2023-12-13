@@ -1,0 +1,25 @@
+﻿<Window x:Class="CreatingUserControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CreatingUserControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <local:RhombusControl Header="Поздравление 1" 
+                                  Description="Сообщение с поздравлением" ColoredSource="/Assets/4HE1frQPYDw.jpg" />
+            <local:RhombusControl Header="Поздравление 2" 
+                      Description="Сообщение с поздравлением" ColoredSource="/Assets/cRrjcAqaHJc.jpg" />
+            <local:RhombusControl Header="Поздравление 3" 
+                      Description="Сообщение с поздравлением" ColoredSource="/Assets/FbwrAJip7rE.jpg" />
+            <local:RhombusControl Header="Поздравление 4" 
+                      Description="Сообщение с поздравлением" ColoredSource="/Assets/Jamal.jpg" />
+
+
+        </StackPanel>
+    </Grid>
+</Window>
